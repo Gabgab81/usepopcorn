@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
-// import './index.css';
-import './indexChallenge.css'
-// import App from './App';
+import './index.css';
+// import './indexChallenge.css'
+import App from './App';
+import ChallengeCurrencyConv from './ChallengeCurrencyConv';
 // import StarRating from './StarRating';
-import AppChallenge from './AppChallenge';
+// import AppChallenge from './AppChallenge';
 
 // const Test = () => {
 
@@ -31,6 +32,8 @@ root.render(
     />
     <StarRating maxRating={10} color="blue" size={20} className="test" />
     <Test /> */}
-    <AppChallenge />
+    {/* <AppChallenge /> */}
+    <App />
+    {/* <ChallengeCurrencyConv /> */}
   </React.StrictMode>
 );
