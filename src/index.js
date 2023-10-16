@@ -4,6 +4,7 @@ import './index.css';
 // import './indexChallenge.css'
 import App from './App';
 import ChallengeCurrencyConv from './ChallengeCurrencyConv';
+import ChallengeGeolocation from './ChallengeGeolocation';
 // import StarRating from './StarRating';
 // import AppChallenge from './AppChallenge';
 
@@ -33,7 +34,8 @@ root.render(
     <StarRating maxRating={10} color="blue" size={20} className="test" />
     <Test /> */}
     {/* <AppChallenge /> */}
-    <App />
+    {/* <App /> */}
     {/* <ChallengeCurrencyConv /> */}
+    <ChallengeGeolocation />
   </React.StrictMode>
 );
